@@ -12,12 +12,12 @@ class Triangle
 {
 public:
 	FIGURE_API Triangle(int a, int b, int c, int A, int B, int C);
-	int get_a();
-	int get_b();
-	int get_c();
-	int get_A();
-	int get_B();
-	int get_C();
+	FIGURE_API int get_a();
+	FIGURE_API int get_b();
+	FIGURE_API int get_c();
+	FIGURE_API int get_A();
+	FIGURE_API int get_B();
+	FIGURE_API int get_C();
 	FIGURE_API std::string get_name();
 
 	FIGURE_API virtual void print_info();
